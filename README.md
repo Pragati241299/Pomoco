@@ -19,7 +19,7 @@
    This Module is made to keep all the common components which can we exported & imported throughout the project as per the requirenment.
 
 
-## 4- Core Module :-  
+## 4- Core :-  
    
    1- fonts.scss- In this file all the fonts family have been imported and this file is added in angular.json style to bes use        throughout the projects
    2- material.ts- It contain all the material modules
