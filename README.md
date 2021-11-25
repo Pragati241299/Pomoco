@@ -1,3 +1,5 @@
+
+## Angualr version - 13.0.2
 ## Project Architecture
 
 ## 1- Wrapper Module :- 
