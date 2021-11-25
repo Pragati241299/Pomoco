@@ -1,0 +1,85 @@
+@import "../../core/variables.scss";
+@import "../../core/font.scss";
+@import "../../core/responsive.scss";
+.main-filter_wrapper {
+    h1 {
+        font-family: OpenSans-Bold;
+        font-size: 20px;
+        color: #182135;
+    }
+    .search-filter_wrapper {
+        .close {
+            &_button {
+                background-color: $sidebad-bg;
+                border: none;
+                border-radius: 10px;
+            }
+        }
+    }
+    .Cuisine_wrapper {
+        .cuisine-text-active {
+            background: rgba(251, 109, 58, 0.1);
+            border-radius: 6px;
+            padding: 8px 30px;
+            border: none;
+        }
+        .cuisine-text {
+            background: $sidebad-bg;
+            border-radius: 6px;
+            padding: 8px 20px;
+            border: none;
+            margin-right: 6px;
+            color: $para-grey;
+        }
+        .cuisine-text-top {
+            background: $sidebad-bg;
+            border-radius: 6px;
+            padding: 8px 30px;
+            border: none;
+            margin-left: 6px;
+            color: $para-grey;
+        }
+    }
+    .see-more {
+        p {
+            font-family: OpenSans-Regular;
+            font-size: 16px;
+            color: $orenge-text;
+        }
+    }
+    .sort-content {
+        align-items: center;
+        margin-bottom: 25px;
+        .close {
+            .open {
+                background: rgba(251, 109, 58, 0.1);
+                border-radius: 9px;
+                border: none;
+            }
+        }
+        span {
+            font-family: OpenSans-Bold;
+            font-size: 16px;
+            color: $orenge-text;
+            margin-left: 10px;
+        }
+    }
+    .apply-filter {
+        button {
+            position: absolute;
+            bottom: 20px;
+            width: 90%;
+            margin: auto;
+            background-color: $primary-color;
+            border-radius: 12px;
+            color: $text-white;
+            border: none;
+        }
+    }
+}
+
+::ng-deep {
+    .mat-dialog-container {
+        border-radius: 24px 0px 0px 24px;
+    }
+}

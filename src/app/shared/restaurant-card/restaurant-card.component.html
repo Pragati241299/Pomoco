@@ -1,0 +1,21 @@
+<div class="wrapper mb-4">
+    <div class="wrapper_img">
+        <img class="w-100" src="{{data.img}}" alt="">
+    </div>
+    <div class="wrapper_content">
+        <div class="d-flex py-2 justify-content-between ">
+            <div class="name">
+                {{data.name}}
+            </div>
+            <div class="link">
+                <a [routerLink]="['/'+routes.resturantDetail]">Open Now</a>
+            </div>
+        </div>
+        <div class="content py-2">
+            <p>
+                {{data.content}}
+            </p>
+        </div>
+    </div>
+
+</div>

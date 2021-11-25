@@ -1,0 +1,41 @@
+@import "../../core/variables.scss";
+@import "../../core/font.scss";
+.wrapper {
+    &_img {
+        img {
+            border-radius: 16px;
+            height: 220px;
+        }
+    }
+    &_content {
+        margin-top: 8px;
+        .name {
+            font-family: OpenSans-Bold;
+            font-size: 16px;
+        }
+        .link {
+            font-family: OpenSans-Bold;
+            font-size: 11px;
+            line-height: 16px;
+            background: rgba(80, 62, 157, 0.1);
+            border-radius: 4px;
+            padding: 5px;
+            a {
+                color: $primary-color;
+                text-decoration: none;
+            }
+        }
+        .content {
+            p {
+                display: -webkit-box;
+                -webkit-line-clamp: 3;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                font-family: Open Sans;
+                font-style: normal;
+                font-size: 12px;
+                line-height: 18px;
+            }
+        }
+    }
+}

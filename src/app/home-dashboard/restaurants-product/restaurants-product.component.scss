@@ -1,0 +1,65 @@
+@import "../../core/variables.scss";
+@import "../../core/font.scss";
+.btn_wrapper {
+    .filter_btn {
+        margin: 10px;
+        button {
+            background: $sidebad-bg;
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            color: $para-grey;
+            border-radius: 8px;
+        }
+        .active {
+            background: $primary-color;
+            color: $text-white;
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            border-radius: 8px;
+        }
+        button:hover {
+            background: $primary-color;
+            color: $text-white;
+        }
+    }
+}
+
+.menu_wrapper {
+    h2 {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .card_wrapper {
+        margin-bottom: 15px;
+        &_img {
+            img {
+                height: 204px;
+                object-fit: cover;
+                border-radius: 20px;
+            }
+        }
+        &_content {
+            .name {
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 24px;
+            }
+            .price {
+                font-family: Open Sans;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                color: $primary-color;
+            }
+        }
+    }
+}

@@ -1,0 +1,124 @@
+@import "../../core/variables.scss";
+@import "../../core/font.scss";
+@import "../../core/responsive.scss";
+.main-sidebar {
+    .logo {
+        span {
+            font-size: 18px;
+            // @include font-proxima-medium($size: 14);
+            color: #2D2D2D;
+            padding-left: 5px;
+        }
+    }
+    .menu {
+         ::ng-deep {
+            .mat-expansion-panel:not([class*=mat-elevation-z]) {
+                box-shadow: none;
+                background: transparent;
+            }
+            .mat-expansion-panel-header[aria-disabled=true] {
+                color: #626264;
+            }
+            .mat-expansion-panel-header-title {
+                span {
+                    font-family: OpenSans-Medium;
+                    font-size: 14px;
+                }
+            }
+            .mat-expansion-panel-header {
+                padding: 0px;
+            }
+        }
+    }
+    .sidebar_bottom {
+        bottom: 0;
+        margin-top: 25px;
+        &_left {
+            h3 {
+                font-family: OpenSans-Bold;
+                font-size: 14px;
+                color: $heading-color;
+            }
+            p {
+                font-family: OpenSans-Regular;
+                font-size: 11px;
+                color: $para-grey;
+            }
+        }
+        .icon_wrap {
+            position: relative;
+            .up_icon {
+                position: absolute;
+                top: 0px;
+                right: -5px;
+            }
+            .down_icon {
+                position: absolute;
+                top: 10px;
+                right: -5px;
+            }
+        }
+    }
+    .sidebar-card {
+        background: $text-white;
+        box-shadow: 0px 32px 96px -8px rgba(0, 0, 0, 0.06);
+        border-radius: 20px;
+        position: relative;
+        margin-top: 30px;
+        .cross {
+            position: absolute;
+            right: 5px;
+            top: 5px;
+            font-size: 15px;
+        }
+        .top-img {
+            button {
+                margin-top: 30px;
+                background: rgba(251, 109, 58, 0.1);
+                border-radius: 12px;
+                padding: 14px 19px;
+                margin-left: 73px;
+            }
+            .card-icon {
+                color: $orenge-text;
+            }
+        }
+        .content {
+            text-align: center;
+            h1 {
+                font-size: 14px;
+                font-family: OpenSans-Medium;
+                margin-top: 20px;
+                color: $heading-color;
+            }
+            span {
+                font-size: 12px;
+                font-family: OpenSans-Regular;
+                color: $para-grey;
+            }
+        }
+        .card-button {
+            background-color: $primary-color;
+            padding: 10px;
+            color: $text-white;
+            width: 80%;
+            border-radius: 10px;
+            border: none;
+            margin-top: 29px;
+            margin-left: 21px;
+            margin-bottom: 20px;
+            font-size: 16px;
+            font-family: OpenSans-Medium;
+        }
+    }
+}
+
+.bluebg {
+    background: $primary-color;
+    color: $text-white!important;
+}
+
+.blbg:hover {
+    background: $primary-color;
+    color: $text-white!important;
+}

@@ -1,0 +1,27 @@
+@import "../../core/variables.scss";
+@import "../../core/font.scss";
+@import "../../core/responsive.scss";
+.restuarant {
+    &_header {
+        h2 {
+            font-family: OpenSans-Bold;
+            font-size: 24px;
+            line-height: 32px;
+            color: $heading-color;
+            margin-bottom: 20px;
+        }
+    }
+    &_category {
+        .icon {
+            background: #F7F7F7;
+            padding: 6px;
+            border-radius: 12px;
+        }
+        .text {
+            margin-left: 8px;
+            margin-right: 40px;
+            font-family: OpenSans-Bold;
+            line-height: 24px;
+        }
+    }
+}

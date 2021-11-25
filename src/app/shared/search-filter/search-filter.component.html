@@ -1,0 +1,53 @@
+<section class="main-filter_wrapper">
+    <div class="d-flex justify-content-between search-filter_wrapper align-item-center">
+        <div class="head">
+            <h1>Search filters</h1>
+        </div>
+        <div class="close">
+            <button (click)="closeDialog()" class="close_button p-2"> <img src="../../../assets/Image/cross.png"></button>
+        </div>
+    </div>
+    <div class="sort-wrapper mt-4">
+        <div class="head">
+            <h1>Sort by</h1>
+        </div>
+        <div class="sort-content d-flex align-item-center">
+            <div class="close">
+                <button class="open "> <i class="material-icons">local_fire_department</i></button>
+            </div>
+            <span>Open</span>
+
+        </div>
+    </div>
+    <div class="Cuisine_wrapper ">
+        <div class="head">
+            <h1>Cuisine</h1>
+        </div>
+        <div class="cuision-text d-flex">
+            <button class="cuisine-text-active"> All</button>
+            <button class="cuisine-text-top "> Fast food</button>
+            <button class="cuisine-text-top "> American food</button>
+        </div>
+        <div class="cuision-text d-flex mt-2">
+            <button class="cuisine-text"> Pizza</button>
+            <button class="cuisine-text ">Asian</button>
+            <button class="cuisine-text "> Dessert</button>
+            <button class="cuisine-text "> Mexican</button>
+        </div>
+        <div class="cuision-text d-flex mt-2">
+            <button class="cuisine-text"> Breakfast</button>
+
+        </div>
+        <div class="see-more d-flex justify-content-between mt-3">
+            <p>
+                See more
+            </p>
+            <div>
+                <i class="material-icons">keyboard_arrow_down</i>
+            </div>
+        </div>
+    </div>
+    <div class="apply-filter">
+        <button class=" p-2">Apply filters</button>
+    </div>
+</section>

@@ -1,0 +1,43 @@
+@media (max-width: 600px) {
+    .sidebar-card {
+        display: none;
+    }
+    .sidebar_bottom {
+        position: absolute;
+        bottom: 0;
+    }
+    .wrapper-sidenav-content {
+        .select-loc {
+            display: none!important;
+        }
+        form {
+            display: none!important;
+        }
+    }
+     ::ng-deep {
+        .filter_wrapper {
+            width: 100%;
+        }
+    }
+    .main-filter_wrapper {
+        .Cuisine_wrapper {
+            .cuisine-text-active {
+                padding: 7px 12px!important;
+                font-size: 11px;
+            }
+            .cuisine-text {
+                font-size: 12px;
+                padding: 8px 7px!important;
+            }
+            .cuisine-text-top {
+                font-size: 11px;
+                padding: 8px 7px!important;
+            }
+        }
+        .apply-filter {
+            button {
+                width: 80%!important;
+            }
+        }
+    }
+}
